@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+     android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+    <LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="math"
+    android:layout_margin="5dp"
+        android:id="@+id/text_math"
+    />
+   <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="start hour"
+       android:layout_margin="5dp"
+
+       android:id="@+id/edit_math_start"
+    />
+    <EditText
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="end hour"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_math_end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="physics"
+        android:layout_margin="5dp"
+
+        android:id="@+id/text_phy"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="start hour"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_phy_start"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="end hour"
+        android:id="@+id/edit_phy_end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="programming"
+        android:layout_margin="5dp"
+
+        android:id="@+id/text_prog"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="start hour"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_prog_start"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="end hour"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_prog_end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="thermo"
+        android:layout_margin="5dp"
+
+        android:id="@+id/text_thermo"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="start hour"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_thermo_start"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="end hour"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_thermo_end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="circuits"
+        android:layout_margin="5dp"
+
+        android:id="@+id/text_circuits"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="start hour"
+        android:layout_margin="5dp"
+
+        android:id="@+id/edit_circ_start"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="end hour"
+        android:layout_margin="5dp"
+        />
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

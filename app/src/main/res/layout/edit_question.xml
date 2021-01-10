@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+   <LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editor_window_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Question here"
+
+         />
+     <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" >
+       <EditText
+        android:id="@+id/first_radio_editbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:layout_margin="40dp"
+
+
+android:hint="First question"
+          />
+
+        <EditText
+        android:layout_below="@id/first_radio_editbox"
+        android:id="@+id/second_radio_editbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:hint="Second question"
+          android:layout_margin="40dp"
+
+         />
+
+        <EditText
+          android:layout_below="@id/second_radio_editbox"
+          android:id="@+id/third_radio_editbox"
+            android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:hint="Third question"
+          android:layout_margin="40dp" />
+
+         <EditText
+             android:id="@+id/fourth_radio_radio_editbox"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@id/third_radio_editbox"
+             android:layout_margin="40dp"
+             android:hint="Fourth question" />
+
+         <RadioGroup
+
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/radio_group_in_editor"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:checkedButton="@id/first_radio_editbox"
+
+            android:layout_margin="40dp"
+
+            android:layout_toRightOf="@id/second_radio_editbox" >
+
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                 android:layout_margin="25dp"
+                />
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="25dp"
+
+                />
+
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="25dp"
+
+                />
+            <RadioButton
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_margin="25dp"
+
+                />
+
+
+
+        </RadioGroup>
+
+
+
+
+      </RelativeLayout>
+
+       <Button
+           android:id="@+id/submit_button"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:enabled="true"
+           android:text="Submit question" />
+       <Button
+           android:id="@+id/delete"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:enabled="false"
+           android:text="Delete Question" />
+
+
+
+   </LinearLayout>
+</ScrollView>

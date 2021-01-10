@@ -7,20 +7,7 @@ public final class   ConractClass {
 
 
 
-        /*public static final  String TABLE_CONTENT_AUTHORITY="com.example.petsapp";*/
-
-        /*public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + TABLE_CONTENT_AUTHORITY);*/
-
-
-       /* public static final  String TABLE_PATH="pets";
-
-        public static final Uri theFinalUri = Uri.withAppendedPath(BASE_CONTENT_URI,TABLE_PATH);
-
-
-        public static final  String TABLE_PLACE_URI="content://com.example.petsapp/pets";
-
-
-*/      public  static int totalNumOfRows=0;
+            public  static int totalNumOfRows=0;
 
         public   static  final  String TABLE_NAME="QDATA";
 
